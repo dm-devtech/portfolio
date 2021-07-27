@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.dec776cd.chunk.css",
+    "main.js": "/portfolio/static/js/main.bd03d3a1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bd03d3a1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.359227dd.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.359227dd.js.map",
+    "static/js/2.300d0667.chunk.js": "/portfolio/static/js/2.300d0667.chunk.js",
+    "static/js/2.300d0667.chunk.js.map": "/portfolio/static/js/2.300d0667.chunk.js.map",
+    "static/js/3.6ac9f781.chunk.js": "/portfolio/static/js/3.6ac9f781.chunk.js",
+    "static/js/3.6ac9f781.chunk.js.map": "/portfolio/static/js/3.6ac9f781.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.dec776cd.chunk.css.map": "/portfolio/static/css/main.dec776cd.chunk.css.map",
+    "static/js/2.300d0667.chunk.js.LICENSE.txt": "/portfolio/static/js/2.300d0667.chunk.js.LICENSE.txt",
+    "static/media/background.a708e10e.jpg": "/portfolio/static/media/background.a708e10e.jpg",
+    "static/media/baseball.5834277e.JPG": "/portfolio/static/media/baseball.5834277e.JPG",
+    "static/media/catchme.5d8a93bf.JPG": "/portfolio/static/media/catchme.5d8a93bf.JPG",
+    "static/media/content.1bbb129e.JPG": "/portfolio/static/media/content.1bbb129e.JPG",
+    "static/media/git-finder.905bae57.JPG": "/portfolio/static/media/git-finder.905bae57.JPG",
+    "static/media/language-lighthouse.036ceddf.JPG": "/portfolio/static/media/language-lighthouse.036ceddf.JPG",
+    "static/media/logo.9006fce8.svg": "/portfolio/static/media/logo.9006fce8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.359227dd.js",
+    "static/js/2.300d0667.chunk.js",
+    "static/css/main.dec776cd.chunk.css",
+    "static/js/main.bd03d3a1.chunk.js"
+  ]
+}
