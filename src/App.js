@@ -22,7 +22,7 @@ const App = () => (
     <BrowserRouter>
       <div className="App">
   
-        <Route exact path="/" component={Projects} />
+        <Route exact path="/portfolio" component={Projects} />
         <Route path="/blog" component={Blog} />
         <Route path="/about" component={About} />
         <Route path="/git-language-finder" component={GitLanguageFinder} />
