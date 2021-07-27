@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
 import Projects from './Pages/Projects.js'; 
 import Blog from './Pages/Blog.js'; 
@@ -8,7 +7,6 @@ import GitLanguageFinder from './Pages/Projects/git-language-finder.js';
 import LanguageLighthouse from './Pages/Projects/language-lighthouse.js'; 
 import Cms from './Pages/Projects/cms.js'; 
 import CatchMe from './Pages/Projects/CatchMe.js'; 
-import NoMatch from './Pages/NoMatch.js';
 import './App.css';
 import Layout from './Pages/Layout.js'
 import NavigationBar from './Pages/NavigationBar.js'

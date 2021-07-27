@@ -23,7 +23,7 @@ const NavigationBar = () => (
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="justify-content-end" style={{ width: "100%" }}>
-                    <Nav.Item><Nav.Link href="/" class="display-1">Projects</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/projects" class="display-1">Projects</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/about" class="display-1">About</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/blog" class="display-1">Blog</Nav.Link></Nav.Item>
                 </Nav>
