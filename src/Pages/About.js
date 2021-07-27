@@ -14,7 +14,7 @@ function About(props) {
           <li>Javascript, Node, Express, React, Jasmine, Jest, Cypress, React Testing Library</li>
           <li>Ruby, Rails, Sinatra, RSpec, Capybara </li>
           <li>SQL, PostgreSQL</li>
-          <li>TDD, OOP, Agile development, CI/CD</li>
+          <li>TDD, OOP, Agile development, CI/CD (Travis, Netlify)</li>
         <br/>
           Previous career in finance 2016-2020 and marketing 2011-2015.  Makers Academy Graduate 2020.
         </ul>
