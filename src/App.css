@@ -21,7 +21,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -36,3 +35,136 @@
     transform: rotate(360deg);
   }
 }
+
+.logo-image {
+  width:150px;
+  height:150px;
+}
+
+img {
+  height:auto;
+  width: 50%;
+  float: left;
+}
+
+ul {
+  float: right;
+  margin-top: 0px !important;
+  margin-left: 10px !important;
+  list-style-position: inside;
+  padding: 0px;
+  text-align: left;
+  
+}
+
+li {
+  margin-top: 10px !important;
+  text-align: left;
+  margin-left: 0px !important;
+}
+
+h1 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  text-align: center;
+  color: #222;
+  background-color: transparent;
+}
+
+h2 {
+  margin-top: 30px !important;
+  margin-bottom: 20px !important;
+  text-align: center;
+  color: #222;
+  background-color: transparent;
+}
+
+h3 {
+  margin-top: 35px !important;
+  margin-bottom: 18px !important;
+  text-align: center;
+  color: #222;
+  background-color: transparent;
+}
+
+body {
+  text-align: center;
+  color: #222;
+  background-color: transparent;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  height: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+ }
+
+.mt-1 {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.card-img {
+  width: auto;
+  height: 210px;
+}
+
+.card-title.h5 {
+  margin-bottom: 5;
+}
+
+.card-text {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.bio {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn, .btn-outline-dark {
+  margin-right: 10px;
+}
+
+.display-1 {
+  margin-top: 0;
+  margin-bottom: 10;
+  font-size: 12;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+.lead {
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-size: auto;
+}
+
+.h6 {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+

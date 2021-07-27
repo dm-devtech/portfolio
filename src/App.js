@@ -1,25 +1,39 @@
+import React from 'react';
 import logo from './logo.svg';
+import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import Projects from './Pages/Projects.js'; 
+import Blog from './Pages/Blog.js'; 
+import About from './Pages/About.js'; 
+import GitLanguageFinder from './Pages/Projects/git-language-finder.js'; 
+import LanguageLighthouse from './Pages/Projects/language-lighthouse.js'; 
+import Cms from './Pages/Projects/cms.js'; 
+import CatchMe from './Pages/Projects/CatchMe.js'; 
+import NoMatch from './Pages/NoMatch.js';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+import Layout from './Pages/Layout.js'
+import NavigationBar from './Pages/NavigationBar.js'
+import Jumbotron from './Pages/Jumbotron.js'
+ 
+const App = () => (
+  <React.Fragment>
+    <NavigationBar/>
+    <Jumbotron/>
+  <Layout>
+    <BrowserRouter>
+      <div className="App">
+  
+        <Route exact path="/" component={Projects} />
+        <Route path="/blog" component={Blog} />
+        <Route path="/about" component={About} />
+        <Route path="/git-language-finder" component={GitLanguageFinder} />
+        <Route path="/language-lighthouse" component={LanguageLighthouse} />
+        <Route path="/cms" component={Cms} />
+        <Route path="/CatchMe" component={CatchMe} />
+  
+      </div>
+    </BrowserRouter>
+    </Layout>
+    </React.Fragment>
   );
-}
 
-export default App;
+export default App
