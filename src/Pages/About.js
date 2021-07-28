@@ -7,7 +7,7 @@ function About(props) {
       <h2>David Millen
         <br/>
       <small class="text-muted">Software Developer</small></h2>
-      <div class="bio"> 
+      <div class="center"> 
       <div class="lead">       
         <ul>Experience with:
           <li>Javascript, Node, Express, React, Jasmine, Jest, Cypress, React Testing Library</li>
