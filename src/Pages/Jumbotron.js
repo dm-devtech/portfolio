@@ -17,8 +17,9 @@ const Styles = styled.div`
 .overlay {
     text-align: center;
     background-color: #000;
-    opacity: 0.6;
-    position: absolute;
+    opacity: 0;
+    position: relative;
+    height: 80%;
     top: 0;
     left: 0;
     bottom: 0;

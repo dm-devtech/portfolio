@@ -7,7 +7,6 @@ function About(props) {
       <h2>David Millen
         <br/>
       <small class="text-muted">Software Developer</small></h2>
-      <img src="https://images.pexels.com/photos/248515/pexels-photo-248515.png"></img>
       <div class="bio"> 
       <div class="lead">       
         <ul>Experience with:
