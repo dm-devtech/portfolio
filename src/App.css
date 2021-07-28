@@ -53,13 +53,13 @@ ul {
   margin-left: 10px !important;
   list-style-position: inside;
   padding: 0px;
-  text-align: left;
+  text-align: center;
   
 }
 
 li {
   margin-top: 10px !important;
-  text-align: left;
+  text-align: center;
   margin-left: 0px !important;
 }
 
@@ -161,6 +161,7 @@ body {
   margin-top: 15px;
   margin-bottom: 40px;
   font-size: auto;
+  text-align: center;
 }
 
 .h6 {
