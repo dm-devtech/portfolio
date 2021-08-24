@@ -1,5 +1,6 @@
 import React from "react"
 import '../../App.css';
+import baseball from "../../assets/baseball.JPG" 
  
 function BaseballScorecard(props) {
   return (
@@ -17,8 +18,9 @@ function BaseballScorecard(props) {
 
           <dt class="col-sm-3">Link to Github Repo </dt>
           <dd class="col-sm-9"><a href="https://github.com/dm-devtech/Baseball-Scorecard_ReactApp">Here</a></dd>
-
+          <img  src={baseball} />
         </dl>
+          <p className="h5" >David Millen 2021</p>
     </div>
   )
 }
