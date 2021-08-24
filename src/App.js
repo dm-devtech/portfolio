@@ -7,6 +7,7 @@ import GitLanguageFinder from './Pages/Projects/git-language-finder.js';
 import LanguageLighthouse from './Pages/Projects/language-lighthouse.js'; 
 import Cms from './Pages/Projects/cms.js'; 
 import CatchMe from './Pages/Projects/CatchMe.js'; 
+import Baseball from './Pages/Projects/baseball-scorecard.js'; 
 import './App.css';
 import Layout from './Pages/Layout.js'
 import NavigationBar from './Pages/NavigationBar.js'
@@ -15,7 +16,7 @@ import Jumbotron from './Pages/Jumbotron.js'
 const App = () => (
   <React.Fragment>
     <NavigationBar/>
-    <Jumbotron/>
+    <Jumbotron className="jumbotron jumbotron-fluid"/>
   <Layout>
     <BrowserRouter>
       <div className="App">
@@ -28,6 +29,7 @@ const App = () => (
         <Route path="/language-lighthouse" component={LanguageLighthouse} />
         <Route path="/cms" component={Cms} />
         <Route path="/CatchMe" component={CatchMe} />
+        <Route path="/baseball-scorecard" component={Baseball} />
   
       </div>
     </BrowserRouter>

@@ -70,10 +70,10 @@ const Projects = () => (
             <Col md="auto">
             <div  className="mt-1">
              <Thumbnail
-                link="/bowling-scorecard"
+                link="/baseball-scorecard"
                 image={baseball}
-                title="Bowling Scorecard"
-                category="An interactive bowling scorecard built in React"
+                title="Baseball Scorecard"
+                category="An interactive baseball scorecard built in React"
                 hostedLink="https://baseball-scorecard.herokuapp.com/"
               />
               </div>

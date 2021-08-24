@@ -16,9 +16,6 @@ function CMS(props) {
         <dd class="col-sm-9"><a href="https://github.com/dm-devtech/content-management">Here</a></dd>
 
          </dl>
-        <div className="lead">
-         Screenshots
-        </div>
         <br/>
       <p className="h6" >David Millen 2021</p>
     </div>

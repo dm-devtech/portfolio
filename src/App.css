@@ -168,3 +168,15 @@ body {
   margin-top: 80px;
   margin-bottom: 30px;
 }
+
+.jumbotron, .jumbotron-fluid {
+  background: url('./assets/background.jpg') no-repeat fixed bottom;
+  background-size: cover;
+  color: black;
+  height: 500px;
+  position: relative;
+  z-index: -2;
+  padding-right: 0;
+  padding-left: 0;
+  @include border-radius(0);
+}

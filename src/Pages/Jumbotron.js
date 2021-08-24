@@ -29,13 +29,10 @@ const Styles = styled.div`
 `;
 
 const Jumbotron = () => (
-<Styles>
-    <Jumbo fluid={true} className="jumbo">
-        <div className="overlay"></div>
+    <Jumbo fluid>
             <Container> 
             </Container>
     </Jumbo>
-</Styles>
 )
 
 export default Jumbotron
