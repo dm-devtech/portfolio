@@ -6,7 +6,7 @@ function About(props) {
       <h1 class="display-1">Profile</h1>
       <h2>David Millen
         <br/>
-      <small class="text-muted">Software Developer</small></h2>
+      <small class="text-muted">Full stack Developer</small></h2>
       <div class="center"> 
       <div class="lead">       
         <ul>Experience with:
@@ -15,7 +15,9 @@ function About(props) {
           <li>SQL, PostgreSQL</li>
           <li>TDD, OOP, Agile development, CI/CD (Travis, Netlify)</li>
         <br/>
-          Previous career in finance 2016-2020 and marketing 2011-2015.  Makers Academy Graduate 2020.
+          Previous career in finance and marketing.  Makers Academy Graduate 2020.
+          <br/>
+          Currently working in EdTech.
         </ul>
       </div>
     </div>
