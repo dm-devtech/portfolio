@@ -8,7 +8,7 @@ import catchMe from "../assets/catchme.JPG"
 import gitFinder from "../assets/git-finder.JPG"
 import language from "../assets/language-lighthouse.JPG"
 import content from "../assets/content.JPG" 
-import baseball from "../assets/baseball.JPG" 
+import baseball from "../assets/baseball2.JPG"
 
 const Projects = () => (
     <div >
@@ -74,7 +74,6 @@ const Projects = () => (
                 image={baseball}
                 title="Baseball Scorecard"
                 category="An interactive baseball scorecard built in React"
-                hostedLink="https://baseball-scorecard.herokuapp.com/"
               />
               </div>
             </Col>
@@ -85,7 +84,7 @@ const Projects = () => (
       </Container>
       </div>
       <br/>
-          <p className="h6" >David Millen 2021</p>
+          <p className="h6" >David Millen 2022</p>
 </div>
   )
  

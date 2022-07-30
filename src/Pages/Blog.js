@@ -37,7 +37,7 @@ const Blog = () => (
         <h1 class="display-4">Let vs Const vs Var</h1>
           <dl class="row">
             <dt class="col-sm-3">Var</dt>
-            <dd class="col-sm-9">Globally/function scoped not block scoped, can be redeclared/reassigned.</dd>
+            <dd class="col-sm-9">Globally/function scoped not block scoped, can be re-declared/reassigned.</dd>
             <dt class="col-sm-3">Let</dt>
             <dd class="col-sm-9">Function/Block scoped, can be reassigned.</dd>
             <dt class="col-sm-3">Const</dt>
@@ -45,7 +45,7 @@ const Blog = () => (
           </dl>
       </p>
       </div>
-    <p className="h6" >David Millen 2021</p>
+    <p className="h6" >David Millen 2022</p>
   </div>
 )
 

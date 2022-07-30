@@ -11,13 +11,12 @@ function About(props) {
       <div class="lead">       
         <ul>Experience with:
           <li>Javascript, Node, Express, React, Jasmine, Jest, Cypress, React Testing Library</li>
-          <li>Ruby, Rails, Sinatra, RSpec, Capybara </li>
+          <li>Ruby, Rails, Sinatra, RSpec/Minitest, Capybara </li>
           <li>SQL, PostgreSQL</li>
-          <li>TDD, OOP, Agile development, CI/CD (Travis, Netlify)</li>
+          <li>TDD, OOP, Agile development, CI/CD (Travis, Netlify, Heroku)</li>
         <br/>
-          Previous career in finance and marketing.  Makers Academy Graduate 2020.
-          <br/>
           Currently working in EdTech.
+          Previous career in finance and marketing.  Makers Academy Graduate 2020.
         </ul>
       </div>
     </div>
@@ -25,7 +24,7 @@ function About(props) {
         <a type="button" class="btn btn-outline-dark" href="https://github.com/dm-devtech/CV">Github CV</a>
         <a type="button" class="btn btn-outline-dark" href="https://www.youtube.com/channel/UCbQF2qjxHuIfBEkXYScRLLw/videos">Youtube</a>
         <br/>
-          <p className="h6" >David Millen 2021</p>
+          <p className="h6" >David Millen 2022</p>
     </div>
   )
 }
