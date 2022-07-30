@@ -12,9 +12,9 @@ import baseball from "../assets/baseball2.JPG"
 
 const Projects = () => (
     <div >
-      <h1 class="display-1">Projects</h1>
+      <h1 className="display-1">Projects</h1>
    <div >
-   <h2 class="lead">Here are some projects I have developed recently</h2>
+   <h2 className="lead">Here are some projects I have developed recently</h2>
       <Container className="center">
         <Row className="mt-1">
           <Col lg="auto" >

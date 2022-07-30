@@ -19,13 +19,13 @@ const Styles = styled.div`
 const NavigationBar = () => (
     <Styles>
         <Navbar expand="lg">
-            <Navbar.Brand href="/" class="display-1">David Millen</Navbar.Brand>
+            <Navbar.Brand href="/" className="display-1">David Millen</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="justify-content-end" style={{ width: "100%" }}>
-                    <Nav.Item><Nav.Link href="/projects" class="display-1">Projects</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/about" class="display-1">About</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/blog" class="display-1">Blog</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/projects" className="display-6">Projects</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/about" className="display-6">About</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/blog" className="display-6">Blog</Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
