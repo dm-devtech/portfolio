@@ -84,7 +84,7 @@ const Projects = () => (
       </Container>
       </div>
       <br/>
-          <p className="h6" >David Millen 2022</p>
+          <p className="h6" >David Millen 2025</p>
 </div>
   )
  
