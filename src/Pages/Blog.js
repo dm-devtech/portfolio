@@ -86,7 +86,7 @@ const Blog = () => (
         </dl>
       </p>
     </div>
-    <p className="h6">David Millen 2022</p>
+    <p className="h6">David Millen 2025</p>
   </div>
 );
 
