@@ -9,9 +9,10 @@ function About(props) {
       <small className="text-muted">Full stack Developer</small></h2>
       <div className="center">
       <div className="lead">
-        <ul>Experience with:
-          <li>Javascript, Node, Express, React, Jasmine, Jest, Cypress, React Testing Library</li>
-          <li>Ruby, Rails, Sinatra, RSpec/Minitest, Capybara </li>
+        <ul>Skills:
+          <li>React, Svelte, Typescript, Vue js, Javascript, Node, Express</li>
+          <li>Ruby, Rails, Sinatra</li>
+          <li>RSpec, Minitest, Capybara, Jest, Cypress, React Testing Library </li>
           <li>SQL, PostgreSQL</li>
           <li>TDD, OOP, Agile development, CI/CD (Travis, Netlify, Heroku)</li>
         <br/>
@@ -22,9 +23,8 @@ function About(props) {
     </div>
         <a type="button" className="btn btn-outline-dark" href="https://github.com/dm-devtech/">Github</a>
         <a type="button" className="btn btn-outline-dark" href="https://github.com/dm-devtech/CV">Github CV</a>
-        <a type="button" className="btn btn-outline-dark" href="https://www.youtube.com/channel/UCbQF2qjxHuIfBEkXYScRLLw/videos">Youtube</a>
         <br/>
-          <p className="h6" >David Millen 2022</p>
+          <p className="h6" >David Millen 2025</p>
     </div>
   )
 }
